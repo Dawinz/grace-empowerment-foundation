@@ -1,13 +1,24 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
-import HomePage from './screens/HomePage';
+import React from 'react';
+import { BrowserRouter as Routes, Route, Switch } from 'react-router-dom';
+import Layout from './components/Layout';
+import HomePage from './components/HomePage';
+import AboutPage from './components/AboutPage';
+import ContactUsPage from './components/ContactUsPage';
+import ProjectsHomepage from './components/ProjectsHomepage';
 
-function App() {
+const App = () => {
   return (
-    <div style={{ backgroundColor: "#fff", minHeight: "100vh" }}>
-      <HomePage />
-    </div>
+    <Routes>
+      <Layout>
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/about" component={AboutPage} />
+          <Route path="/contact" component={ContactUsPage} />
+          <Route path="/projects" component={ProjectsHomepage} />
+        </Switch>
+      </Layout>
+    </Routes>
   );
-}
+};
 
 export default App;

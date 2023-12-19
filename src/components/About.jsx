@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-const AboutUsPage = () => {
+const AboutPage = () => {
   return (
     <Container className="my-5">
       <Row className="justify-content-center">
@@ -14,4 +14,4 @@ const AboutUsPage = () => {
   );
 };
 
-export default AboutUsPage;
+export default AboutPage;
