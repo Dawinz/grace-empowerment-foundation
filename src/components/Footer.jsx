@@ -1,52 +1,52 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
+import {
+  FiMail,
+  FiPhone,
+  FiFacebook,
+  FiTwitter,
+  FiInstagram,
+} from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <Container fluid className="bg-dark text-light">
-      <Row className="justify-content-between">
-        {/* Left side with email and phone number */}
-        <Col md={6} className="text-left">
-          <span>Email: info@graceempowerment.org</span>
-          <span className="mx-2">|</span>
-          <span>Phone: +255 742 806 974</span>
-        </Col>
-
-        {/* Right side with social media icons */}
-        <Col md={6} className="text-right">
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-light mx-2"
-          >
-            <FaFacebook size={20} />
-          </a>
-          <a
-            href="https://www.youtube.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-light mx-2"
-          >
-            <FaYoutube size={20} />
-          </a>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-light mx-2"
-          >
-            <FaInstagram size={20} />
-          </a>
-        </Col>
-      </Row>
-      <Row className="text-center mt-3">
-        <Col>
-          <p>&copy; 2023 Grace Empowerment Foundation. All Rights Reserved.</p>
-        </Col>
-      </Row>
-    </Container>
+    <footer className="mt-5 py-3 bg-dark text-white">
+      <Container>
+        <Row>
+          <Col md={6} className="mb-4 mb-md-0">
+            <h5>Contact Us</h5>
+            <p>
+              <FiMail /> Email: info@example.com
+            </p>
+            <p>
+              <FiPhone /> Phone: (123) 456-7890
+            </p>
+          </Col>
+          <Col md={6}>
+            <h5>Follow Us</h5>
+            <p>
+              <Link to="facebook.com" className="text-white">
+                <FiFacebook />
+              </Link>{" "}
+              <Link to="twitter.com" className="text-white">
+                <FiTwitter />
+              </Link>{" "}
+              <Link to="instagram.com" className="text-white">
+                <FiInstagram />
+              </Link>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p className="text-center">
+              &copy; 2023 Your Company. All rights reserved.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
   );
 };
 
