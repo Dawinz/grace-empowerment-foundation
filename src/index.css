@@ -52,3 +52,44 @@ body {
 .who-we-are-card .card-body {
   padding: 20px;
 }
+
+/* ProgramsProjectsCarousel.css */
+
+.programs-projects-container {
+  background-color: #007bff; /* Blue background color for the container */
+  padding: 20px; /* Add padding for spacing within the container */
+}
+
+.programs-projects-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.programs-projects-card .card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.programs-projects-card .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.programs-projects-card .card-text {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.programs-projects-card .btn-primary {
+  background-color: #fff; /* White background color for the button */
+  color: #007bff; /* Blue text color for the button */
+  border: 1px solid #007bff; /* Blue border color for the button */
+}
+
+.programs-projects-card .btn-primary:hover {
+  background-color: #007bff; /* Blue background color on hover */
+  color: #fff; /* White text color on hover */
+  border: 1px solid #007bff; /* Blue border color on hover */
+}

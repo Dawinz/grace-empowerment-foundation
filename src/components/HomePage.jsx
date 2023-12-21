@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image, Card } from "react-bootstrap";
+import { Container, Row, Col, Image, Card, Button } from "react-bootstrap";
 import { GiCrystalGrowth, GiSightDisabled } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
@@ -104,6 +104,71 @@ function DarkVariantExample() {
           {/* Right column with team photo */}
           <Col md={6}>
             <Image src={Teamphoto} alt="Team Photo" fluid />
+          </Col>
+        </Row>
+      </Container>
+
+      <Container fluid className="my-1">
+        <Row className="justify-content-center">
+          <Col
+            xs={12}
+            md={8}
+            lg={6}
+            className="mb-4 programs-projects-container"
+          >
+            <Carousel
+              indicators={false}
+              prevIcon={
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-prev-icon"
+                />
+              }
+              nextIcon={
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-next-icon"
+                />
+              }
+            >
+              {/* Card 1 */}
+              <Carousel.Item>
+                <Card className="programs-projects-card">
+                  <Card.Img
+                    variant="top"
+                    src="https://placekitten.com/800/400"
+                    alt="Card Image 1"
+                  />
+                  <Card.Body>
+                    <Card.Title>Program 1</Card.Title>
+                    <Card.Text>Brief description for Program 1.</Card.Text>
+                    <Link to="/projects">
+                      <Button variant="primary">Learn More</Button>
+                    </Link>
+                  </Card.Body>
+                </Card>
+              </Carousel.Item>
+
+              {/* Card 2 */}
+              <Carousel.Item>
+                <Card className="programs-projects-card">
+                  <Card.Img
+                    variant="top"
+                    src="https://placekitten.com/800/400"
+                    alt="Card Image 2"
+                  />
+                  <Card.Body>
+                    <Card.Title>Program 2</Card.Title>
+                    <Card.Text>Brief description for Program 2.</Card.Text>
+                    <Link to="/projects">
+                      <Button variant="primary">Learn More</Button>
+                    </Link>
+                  </Card.Body>
+                </Card>
+              </Carousel.Item>
+
+              {/* Add more Carousel.Items for additional cards */}
+            </Carousel>
           </Col>
         </Row>
       </Container>
