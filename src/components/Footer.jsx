@@ -17,10 +17,10 @@ const Footer = () => {
           <Col md={6} className="mb-4 mb-md-0">
             <h5>Contact Us</h5>
             <p>
-              <FiMail /> Email: info@example.com
+              <FiMail /> Email: info@graceempowerment.org
             </p>
             <p>
-              <FiPhone /> Phone: (123) 456-7890
+              <FiPhone /> Phone: +255 742 806 974
             </p>
           </Col>
           <Col md={6}>
@@ -32,7 +32,10 @@ const Footer = () => {
               <Link to="twitter.com" className="text-white">
                 <FiTwitter />
               </Link>{" "}
-              <Link to="instagram.com" className="text-white">
+              <Link
+                to="https://www.instagram.com/grace.empowermentfoundation?igsh=NGVhN2U2NjQ0Yg=="
+                className="text-white"
+              >
                 <FiInstagram />
               </Link>
             </p>
