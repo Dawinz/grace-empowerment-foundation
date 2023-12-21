@@ -44,7 +44,7 @@ const Footer = () => {
         <Row>
           <Col>
             <p className="text-center">
-              &copy; 2023 Your Company. All rights reserved.
+              &copy; 2023 GRACE EMPOWERMENT FOUNDATION. All rights reserved.
             </p>
           </Col>
         </Row>
