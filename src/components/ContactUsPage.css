@@ -1,0 +1,70 @@
+/* Add your global styles here */
+
+.font-Poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Contact Information */
+.contact-info {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* +1012 3456 789 */
+.phone-number {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* demo@gmail.com */
+.email {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* 132 Dartmouth Street Boston, Massachusetts 02156 United States */
+.address {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Say something to start a live chat! */
+.live-chat {
+  color: #c8c8c8;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Form Labels */
+.form-label {
+  color: #8d8d8d;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+/* Form Text Inputs */
+.form-input {
+  background-color: #f6af03;
+  color: #011b2a;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* Send Message Button */
+.send-message-btn {
+  background-color: #011c2a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin-top: 10px;
+}

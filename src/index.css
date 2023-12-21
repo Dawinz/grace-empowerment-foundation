@@ -25,4 +25,17 @@ body {
   min-height: 100vh;
 }
 
-/* Add more styling as needed */
+.gradient-card {
+  background: linear-gradient(to bottom, #bdd9ff, #66a3ff);
+  border: none;
+}
+
+/* Add this CSS to your styles or component stylesheet */
+.who-we-are-text-container {
+  border-radius: 15px; /* Adjust the value to your desired border radius */
+  overflow: hidden; /* This ensures that the border-radius is applied to the container */
+}
+
+.who-we-are-text {
+  /* Add any additional styles for the text container here */
+}

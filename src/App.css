@@ -16,3 +16,9 @@
 .App-link {
   color: #61dafb;
 }
+
+/* Add this to your CSS or styling file */
+.gradient-card {
+  background: linear-gradient(to bottom, #bdd9ff, #66a3ff);
+  border: none;
+}
