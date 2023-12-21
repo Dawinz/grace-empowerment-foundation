@@ -4,6 +4,42 @@ import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
 const ContactUsPage = () => {
   return (
     <>
+      <Container fluid className="my-5">
+        <Row className="justify-content-center">
+          {/* Physical Address Card */}
+          <Col xs={12} md={6} lg={4} className="mb-4">
+            <Card className="contact-card">
+              <Card.Body>
+                <Card.Title>Physical Address</Card.Title>
+                <Card.Text>123 Main Street, Cityville, Country</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          {/* Office Hours Card */}
+          <Col xs={12} md={6} lg={4} className="mb-4">
+            <Card className="contact-card">
+              <Card.Body>
+                <Card.Title>Office Hours</Card.Title>
+                <Card.Text>Monday - Friday: 9 AM - 5 PM</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          {/* Contact Us Card */}
+          <Col xs={12} md={6} lg={4} className="mb-4">
+            <Card className="contact-card">
+              <Card.Body>
+                <Card.Title>Contact Us</Card.Title>
+                <Card.Text>
+                  Email: info@example.com
+                  <br />
+                  Phone: +1 123 456 789
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
       <Container className="my-5">
         <Row className="justify-content-center align-items-center">
           {/* Left Column with Contact Form */}
@@ -57,43 +93,6 @@ const ContactUsPage = () => {
                 allowFullScreen=""
               />
             </div>
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid className="my-5">
-        <Row className="justify-content-center">
-          {/* Physical Address Card */}
-          <Col xs={12} md={6} lg={4} className="mb-4">
-            <Card className="contact-card">
-              <Card.Body>
-                <Card.Title>Physical Address</Card.Title>
-                <Card.Text>123 Main Street, Cityville, Country</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          {/* Office Hours Card */}
-          <Col xs={12} md={6} lg={4} className="mb-4">
-            <Card className="contact-card">
-              <Card.Body>
-                <Card.Title>Office Hours</Card.Title>
-                <Card.Text>Monday - Friday: 9 AM - 5 PM</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          {/* Contact Us Card */}
-          <Col xs={12} md={6} lg={4} className="mb-4">
-            <Card className="contact-card">
-              <Card.Body>
-                <Card.Title>Contact Us</Card.Title>
-                <Card.Text>
-                  Email: info@example.com
-                  <br />
-                  Phone: +1 123 456 789
-                </Card.Text>
-              </Card.Body>
-            </Card>
           </Col>
         </Row>
       </Container>
