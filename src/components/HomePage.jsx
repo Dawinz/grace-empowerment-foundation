@@ -96,15 +96,14 @@ function DarkVariantExample() {
       </Container>
       <Container className="my-5">
         <Row>
-          {/* Left column with team photo */}
-          <Col md={6}>
-            <Image src={Teamphoto} alt="Team Photo" fluid />
-          </Col>
-
-          {/* Right column with team description */}
+          {/* Left column with team description */}
           <Col md={6} className="mt-3 mt-md-0">
             <h2>Our Team</h2>
             <p>{teamInfo.teamDescription}</p>
+          </Col>
+          {/* Right column with team photo */}
+          <Col md={6}>
+            <Image src={Teamphoto} alt="Team Photo" fluid />
           </Col>
         </Row>
       </Container>
