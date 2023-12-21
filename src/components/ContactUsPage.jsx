@@ -11,7 +11,11 @@ const ContactUsPage = () => {
             <Card className="contact-card">
               <Card.Body>
                 <Card.Title>Physical Address</Card.Title>
-                <Card.Text>123 Main Street, Cityville, Country</Card.Text>
+                <Card.Text>
+                  Head Office Address: ENGOSENGIU street, nearby Edmundrice
+                  Sinon Secondary School, SINON ward, Arusha District, Arusha
+                  Region, Tanzania. hP.O. Box: P.O.BOX 7131, Arusha, Tanzania.
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -31,9 +35,9 @@ const ContactUsPage = () => {
               <Card.Body>
                 <Card.Title>Contact Us</Card.Title>
                 <Card.Text>
-                  Email: info@example.com
+                  Email: info@graceempowerment.org
                   <br />
-                  Phone: +1 123 456 789
+                  Phone: +255 742 806 974
                 </Card.Text>
               </Card.Body>
             </Card>

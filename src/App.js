@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import ContactUsPage from './components/ContactUsPage';
-import Projects from './components/Projects';
+import ProjectsPage from './components/Projects';
 import NavbarComponent from './components/Navbar.jsx';
 import Footer from './components/Footer';
 
@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/" exact element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactUsPage />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
       <Footer />
     </>

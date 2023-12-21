@@ -108,14 +108,9 @@ function DarkVariantExample() {
         </Row>
       </Container>
 
-      <Container fluid className="my-1">
+      <Container fluid className="my-5 programs-projects-container">
         <Row className="justify-content-center">
-          <Col
-            xs={12}
-            md={8}
-            lg={6}
-            className="mb-4 programs-projects-container"
-          >
+          <Col xs={12} md={10} lg={6} xl={6} className="mb-4">
             <Carousel
               indicators={false}
               prevIcon={
@@ -134,11 +129,7 @@ function DarkVariantExample() {
               {/* Card 1 */}
               <Carousel.Item>
                 <Card className="programs-projects-card">
-                  <Card.Img
-                    variant="top"
-                    src="https://placekitten.com/800/400"
-                    alt="Card Image 1"
-                  />
+                  <Card.Img variant="top" src={image1} alt="Card Image 1" />
                   <Card.Body>
                     <Card.Title>Program 1</Card.Title>
                     <Card.Text>Brief description for Program 1.</Card.Text>
@@ -152,11 +143,7 @@ function DarkVariantExample() {
               {/* Card 2 */}
               <Carousel.Item>
                 <Card className="programs-projects-card">
-                  <Card.Img
-                    variant="top"
-                    src="https://placekitten.com/800/400"
-                    alt="Card Image 2"
-                  />
+                  <Card.Img variant="top" src={image2} alt="Card Image 2" />
                   <Card.Body>
                     <Card.Title>Program 2</Card.Title>
                     <Card.Text>Brief description for Program 2.</Card.Text>

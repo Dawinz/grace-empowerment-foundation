@@ -1,0 +1,26 @@
+/* ProjectsPage.css */
+
+.projects-page-container {
+  padding: 20px; /* Add padding for spacing within the container */
+}
+
+.project-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card .card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-card .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-card .card-text {
+  font-size: 1rem;
+}
