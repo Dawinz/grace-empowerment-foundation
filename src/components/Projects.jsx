@@ -8,28 +8,28 @@ const projects = [
     location: "City A",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero in nunc euismod, nec tincidunt risus gravida.",
-    image: "https://placekitten.com/800/400",
+    image: "/images/DSC_0004.jpg",
   },
   {
     title: "Project 2",
     location: "City B",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero in nunc euismod, nec tincidunt risus gravida.",
-    image: "https://placekitten.com/800/400",
+    image: "../images/DSC_0022.jpg",
   },
   {
     title: "Project 3",
     location: "City C",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero in nunc euismod, nec tincidunt risus gravida.",
-    image: "https://placekitten.com/800/400",
+    image: "../images/DSC_0018.jpg",
   },
   {
     title: "Project 4",
     location: "City D",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero in nunc euismod, nec tincidunt risus gravida.",
-    image: "https://placekitten.com/800/400",
+    image: "../images/DSC_0011.jpg",
   },
   // Add more projects as needed
 ];
